@@ -11,7 +11,7 @@ import {
     Renderer
 } from '@angular/core';
 import { isPropertyUpdated } from '@angular/forms/src/directives/shared';
-import * as MediumEditor from 'medium-editor';
+let MediumEditor = require('medium-editor');
 
 /**
  * Medium Editor wrapper directive.
